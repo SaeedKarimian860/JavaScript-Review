@@ -145,3 +145,5 @@ function getBook(id) {
 
 
 //Destructuring
+
+const books = getBooks();
