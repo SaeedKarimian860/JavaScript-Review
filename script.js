@@ -173,4 +173,5 @@ const updatedBook = {
   // Overwriting an existing property
   pages: 1210,
 };
+
 updatedBook;
