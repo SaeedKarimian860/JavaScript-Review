@@ -175,5 +175,5 @@ const updatedBook = {
 };
 updatedBook;
 
-const summary = `a book`;
+const summary = `${title}, a ${pages}-page long book, was written by ${author} and published in ${publicationDate}`;
 summary;
