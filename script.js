@@ -183,3 +183,8 @@ summary;
 const pagesRange = pages > 1000 ? "over a thousand" : "less than 1000";
 pagesRange;
 console.log(`the book has ${pagesRange} pages`);
+
+function getYear(str) {
+  return str.split("-")[0];
+}
+console.log(getYear(publicationDate));
