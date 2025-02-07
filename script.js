@@ -145,7 +145,7 @@ function getBook(id) {
 
 //Destructuring
 
-const book = getBook(1);
+const book = getBook(2);
 book;
 
 // const title = books.title;
@@ -199,5 +199,17 @@ console.log(hasMovieAdaptation && 'This book has a movie');
 console.log('john' && 'some string');
 console.log(0 && 'some string');
 
+console.log(true || 'some string');
+console.log(false || 'some string');
 
+console.log(book.translations.spanish);
 
+const spanishTranslation = book.translations.spanish || 'NOT TRANSLATED';
+spanishTranslation;
+
+console.log(book.reviews.librarything.reviewsCount);
+const countWrong = book.reviews.librarything.reviewsCount || 'No data';
+countWrong;
+
+const count = book.reviews.librarything.reviewsCount ?? 'No data';
+count;
