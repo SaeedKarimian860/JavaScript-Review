@@ -145,6 +145,7 @@ function getBook(id) {
 
 //Destructuring
 
+/*
 const book = getBook(2);
 book;
 
@@ -222,3 +223,8 @@ function getTotalReviewCount(book) {
 }
 
 console.log(getTotalReviewCount(book));
+*/
+
+const books = getBooks();
+
+[1, 2, 3, 4, 5].map((el) => el * 2);
