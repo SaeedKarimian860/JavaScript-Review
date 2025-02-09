@@ -248,5 +248,5 @@ const essentialData = books.map(book => ({
 }));
 essentialData;
 
-const longBooks = books.filter(book => book.pages > 500);
+const longBooks = books.filter(book => book.pages > 500).filter(book => book.hasMovieAdaptation);
 longBooks;
