@@ -247,3 +247,6 @@ const essentialData = books.map(book => ({
     reviewsCount: getTotalReviewCount(book),
 }));
 essentialData;
+
+const longBooks = books.filter(book => book.pages > 500);
+longBooks;
