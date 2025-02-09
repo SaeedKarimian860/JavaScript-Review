@@ -263,5 +263,9 @@ pagesAllBooks;
 
 
 const arr = [3, 7, 1, 9, 6];
-const sorted = arr.sort((a, b) => a - b); //this is going in ascending value
+const sorted = arr.slice().sort((a, b) => a - b); //this is going in ascending value
 sorted;
+arr;
+
+const sortedByPages = books.slice().sort((a, b) => b.pages - a.pages); //this is going in descending value
+sortedByPages;
