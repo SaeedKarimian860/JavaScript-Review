@@ -258,5 +258,5 @@ const adventureBooks = books
   .map((book) => book.title);
 adventureBooks;
 
-const pagesAllBooks = books.reduce((acc, book) => acc + book.pages, 0);
+const pagesAllBooks = books.reduce((sum, book) => sum + book.pages, 0);
 pagesAllBooks;
