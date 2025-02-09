@@ -261,7 +261,6 @@ adventureBooks;
 const pagesAllBooks = books.reduce((sum, book) => sum + book.pages, 0);
 pagesAllBooks;
 
-
 const arr = [3, 7, 1, 9, 6];
 const sorted = arr.slice().sort((a, b) => a - b); //this is going in ascending value
 sorted;
@@ -269,3 +268,14 @@ arr;
 
 const sortedByPages = books.slice().sort((a, b) => b.pages - a.pages); //this is going in descending value
 sortedByPages;
+
+// 1) Add book object to array
+const newBook = {
+  id: 6,
+  title: "Harry Potter and the Chamber of Secrets",
+  author: "J. K. Rowling",
+};
+const booksAfterAdd = [...books, newBook];
+booksAfterAdd;
+
+// 2) Delete book object from array
