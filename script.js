@@ -289,3 +289,5 @@ const booksAfterUpdate = booksAfterDelete.map((book) =>
 );
 booksAfterUpdate;
 */
+
+fetch('https://jsonplaceholder.typicode.com/todos');
